@@ -10,7 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 os.makedirs("model", exist_ok=True)
 
 # ================= LOAD DATA =================
-df = pd.read_csv(r"C:\AI_Traffic_Prediction_system\data\final_merged_traffic_dataset.csv")
+df = pd.read_csv(r"C:\Traffic_signal\data\final_merged_traffic_dataset.csv")
 
 print("Columns:", df.columns)
 
